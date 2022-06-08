@@ -18,7 +18,7 @@ fun App() {
 
     MaterialTheme {
         Button(onClick = {
-            text = "Hello, Desktop!"
+            text = "Hello, Androides from Desktop!"
         }) {
             Text(text)
         }
@@ -26,7 +26,11 @@ fun App() {
 }
 
 fun main() = application {
-    Window(onCloseRequest = ::exitApplication) {
+    Window(
+        title = "David Window",
+        alwaysOnTop = true,
+        onCloseRequest = ::exitApplication
+    ) {
         App()
     }
 }
