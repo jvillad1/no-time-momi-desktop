@@ -38,7 +38,7 @@ compose.desktop {
         mainClass = "MainKt"
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "no-time-momi"
+            packageName = "no-time-momi-desktop"
             packageVersion = "1.0.0"
         }
     }

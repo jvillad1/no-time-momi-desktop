@@ -13,5 +13,5 @@ pluginManagement {
     }
 }
 
-rootProject.name = "no-time-momi"
+rootProject.name = "no-time-momi-desktop"
 
